@@ -26,3 +26,31 @@ var swiper = new Swiper(".bg-slider-thumbs", {
   //   loop: true, // Aktifkan loop
   // });
   
+
+const navMenuBtn = document.querySelector(".nav-menu-btn");
+const navCloseBtn = document.querySelector(".nav-close-btn");
+const navigation = document.querySelector(".navigation");
+
+// Tambahkan event listener untuk tombol menu
+navMenuBtn.addEventListener("click", () => {
+  navigation.classList.add("open");
+});
+
+// Tambahkan event listener untuk tombol tutup
+navCloseBtn.addEventListener("click", () => {
+  navigation.classList.remove("open");
+});
+
+
+
+
+const menuBtn = document.querySelector(".nav-menu-btn");
+const menuDropdown = document.querySelector(".menu-dropdown");
+
+menuBtn.addEventListener("click", function () {
+  if (menuDropdown.style.display === "block") {
+    menuDropdown.style.display = "none";
+  } else {
+    menuDropdown.style.display = "block";
+  }
+});

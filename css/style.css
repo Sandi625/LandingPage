@@ -267,10 +267,95 @@ header .nav-bar{
 
 
 
-
+/*rsponsive */
  @media screen and (max-width: 768px) {
     .header {
       background-color: #555;
       padding: 10px;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .swiper-slide .text-content .title {
+      font-size: 2em; /* Ukuran font lebih kecil untuk layar kecil */
+    }
+  
+    .swiper-slide .text-content p {
+      font-size: 0.8em; /* Ukuran font lebih kecil untuk layar kecil */
+    }
+  
+    .media-icons a {
+      font-size: 1.2em; /* Ukuran font lebih kecil untuk ikon media sosial */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .swiper .text-content {
+      margin: 0 20px; /* Margin lebih kecil untuk layar kecil */
+    }
+  
+    .swiper-slide .text-content .read-btn {
+      margin-top: 20px; /* Margin lebih kecil untuk tombol baca pada layar kecil */
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .nav-close-btn, .nav-menu-btn {
+      display: block; /* Tampilkan tombol tutup dan menu */
+    }
+  
+    .nav-bar {
+      padding: 0 20px; /* Padding lebih kecil untuk tampilan mobile */
+    }
+  
+    .navigation .nav-items {
+      flex-direction: column; /* Tampilkan item menu dalam satu kolom pada tampilan mobile */
+      align-items: flex-start; /* Letakkan menu ke sisi kiri pada tampilan mobile */
+      background-color: #333; /* Warna latar belakang menu mobile */
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 80%;
+      transform: translateX(100%); /* Sembunyikan menu di sisi kanan */
+      transition: 0.3s ease;
+    }
+  
+    .nav-menu-btn.active + .navigation .nav-items {
+      transform: translateX(0); /* Tampilkan menu saat tombol menu diklik */
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  .menu-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .menu-dropdown a {
+    display: block;
+    padding: 10px;
+    color: #222;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-dropdown a:hover {
+    background-color: #f1f1f1;
+  }
+  
