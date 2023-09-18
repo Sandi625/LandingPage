@@ -1,0 +1,36 @@
+<section class="home">
+    <div class="swiper bg-slider">
+      <div class="swiper-wrapper">
+        <!-- Pindahkan semua elemen <div class="swiper-slide"> ke sini -->
+        <div class="swiper-slide">
+          <img src="images/rafif-prawira-oBvhRWo1iH8-unsplash.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">Kawah Ijen <span>Summer</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo beatae voluptas laborum quod unde minus porro? Laboriosam corrupti dolor sequi doloribus deleniti corporis perferendis dignissimos. Facilis repudiandae inventore quos magnam..</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/bg2.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">Kawah Ijen <span>Winter</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo beatae voluptas laborum quod unde minus porro? Laboriosam corrupti dolor sequi doloribus deleniti corporis perferendis dignissimos. Facilis repudiandae inventore quos magnam..</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/bg3.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">Kawah Ijen <span>Rainny</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo beatae voluptas laborum quod unde minus porro? Laboriosam corrupti dolor sequi doloribus deleniti corporis perferendis dignissimos. Facilis repudiandae inventore quos magnam..</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/bg4.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">Kawah Ijen <span>Summer</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo beatae voluptas laborum quod unde minus porro? Laboriosam corrupti dolor sequi doloribus deleniti corporis perferendis dignissimos. Facilis repudiandae inventore quos magnam..</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
