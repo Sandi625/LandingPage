@@ -17,13 +17,13 @@ var swiper = new Swiper(".bg-slider-thumbs", {
     },
   });
 
-  var swiper = new Swiper('.swiper', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    loop: true, // Aktifkan loop
-  });
+  // var swiper = new Swiper('.swiper', {
+  //   slidesPerView: 1,
+  //   spaceBetween: 30,
+  //   navigation: {
+  //     nextEl: '.swiper-button-next',
+  //     prevEl: '.swiper-button-prev',
+  //   },
+  //   loop: true, // Aktifkan loop
+  // });
   
