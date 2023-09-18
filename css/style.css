@@ -37,6 +37,9 @@ header{
     left: 0;
     display: flex;
     justify-content: center;
+    /* background-color: #333;
+    color: #fff;
+    padding: 20px; */
 }
 
 header .nav-bar{
@@ -251,3 +254,23 @@ header .nav-bar{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 768px) {
+    .header {
+      background-color: #555;
+      padding: 10px;
+    }
+  }
