@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>Responsive Website Landing Page With Full Screen Dragable Image Slider - Html, Css & java</title>
+  <!-- CSS Build -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <!-- Include Swiper CSS -->
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">  -->
+
+
+
+
+  <script src='main.js'></script>
+</head>
+
+<body>
+  <header>
+    <div class="nav-bar">
+      <a href="" class="logo">Logo</a>
+      <div class="navigation">
+        <div class="nav-items">
+          <i class="uil uil-times nav-close-btn"></i>
+          <a href="#"><i class="uil uil-home"></i> Home</a>
+          <a href="#"><i class="uil uil-compass"></i> Explore</a>
+          <a href="#"><i class="uil uil-info-circle"></i> About</a>
+          <a href="#"><i class="uil uil-document-layout-left"></i> Blog</a>
+          <a href="#"><i class="uil uil-envelope"></i> Contact</a>
+        </div>
+      </div>
+      <!-- untuk android -->
+      <i class="uil uil-apps nav-menu-btn"></i>
+      <div class="menu-dropdown">
+        <a href="#"><i class="uil uil-home"></i> Home</a>
+        <a href="#"><i class="uil uil-compass"></i> Explore</a>
+        <a href="#"><i class="uil uil-info-circle"></i> About</a>
+        <a href="#"><i class="uil uil-document-layout-left"></i> Blog</a>
+        <a href="#"><i class="uil uil-envelope"></i> Contact</a>
+      </div>
+    </div>
+  </header>
+  <section class="home">
+<div class="media-icons">
+  <a href=""><i class="uil uil-facebook-f"></i></a>
+  <a href=""><i class="uil uil-instagram"></i></a>
+  <a href=""><i class="uil uil-whatsapp"></i></a>
+
+</div>
+
+    <div class="swiper bg-slider">
+      <div class="swiper-wrapper">
+        <!-- Pindahkan semua elemen <div class="swiper-slide"> ke sini -->
+        <div class="swiper-slide">
+          <img src="images/rafif-prawira-oBvhRWo1iH8-unsplash.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">Kawah Ijen <span>Welcome</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo beatae voluptas laborum quod unde minus porro? Laboriosam corrupti dolor sequi doloribus deleniti corporis perferendis dignissimos. Facilis repudiandae inventore quos magnam..</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <img src="images/asap-pang-OizgJ82f5-4-unsplash (1).jpg" alt="Winter">
+          <div class="text-content">
+            <h2 class="title">Kawah Ijen <span>Beutifull Creater</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo beatae voluptas laborum quod unde minus porro? Laboriosam corrupti dolor sequi doloribus deleniti corporis perferendis dignissimos. Facilis repudiandae inventore quos magnam..</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <img src="images/jonathan-chan-ElOHPgG4Knw-unsplash.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">Kawah Ijen <span>Sulfur</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo beatae voluptas laborum quod unde minus porro? Laboriosam corrupti dolor sequi doloribus deleniti corporis perferendis dignissimos. Facilis repudiandae inventore quos magnam..</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <img src="images/foto 12.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">Founder<span>Team</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo beatae voluptas laborum quod unde minus porro? Laboriosam corrupti dolor sequi doloribus deleniti corporis perferendis dignissimos. Facilis repudiandae inventore quos magnam..</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+        
+        <!-- Akhir pindahkan elemen <div class="swiper-slide"> -->
+      </div>
+    </div>
+  
+    <!-- Tambahkan tombol navigasi -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  
+    <div class="bg-slider-thumbs">
+      <div class="swiper-wrapper thumbs-container">
+        <img src="images/rafif-prawira-oBvhRWo1iH8-unsplash.jpg" class="swiper-slide" alt="">
+        <img src="images/asap-pang-OizgJ82f5-4-unsplash (1).jpg" class="swiper-slide" alt="">
+        <img src="images/jonathan-chan-ElOHPgG4Knw-unsplash.jpg" class="swiper-slide" alt="">
+        <img src="images/foto 12.jpg" class="swiper-slide" alt="">
+   
+       
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Include Swiper JS  -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- <script src="/js/swiper-bundle.min.js"></script> -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- ----------------------------------------------------------------- -->
+
+<!-- <div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div> -->
+
+
+<!-- Swipper semula hilang gambar -->
+<!-- <div class="swiper-slide"> -->
+<!-- <img src="images/rafif-prawira-oBvhRWo1iH8-unsplash.jpg" alt=""> -->
+<!-- <div class="text-content"></div> -->
+<!-- <h2 class="title">Kawah <span>Ijen</span></h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, deserunt! Mollitia sequi paaque. Nobis sapiente cumque veritatis velit.</p> -->
+<!-- <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button> -->
